@@ -4,6 +4,7 @@ function calculate() {
   var original       = document.getElementById("original");
   var temp = original.value;
   var regexp = /(-?)(\d+(\.\d+)?)(\s*)([c,C,f,F])/;
+  //var regexp = /(\d+\.*\d*)(\s*)(C|c|F|f)/;
   
   var m = temp.match(regexp);
   
